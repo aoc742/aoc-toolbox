@@ -1,0 +1,10 @@
+#!/bin/bash
+
+[Unit]
+Description=Custom Name for your Service
+
+[Service]
+ExecStart=%h/path/to/your/example.sh
+
+[Install]
+WantedBy=default.target
